@@ -15,6 +15,6 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
           registry: docker.pkg.github.com
-          repository: widdix/container-hello-world/container-hello-world
+          repository: rnicola-1605/container-hello-world/container-hello-world
           tag_with_ref: true
           dockerfile: Dockerfile
